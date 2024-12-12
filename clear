@@ -1,0 +1,68 @@
+[33mcommit 44877a3b36f11837e14fd8237710255400c07576[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: tomatokirayuu <alienastromato@gmail.com>
+Date:   Wed Dec 11 22:14:11 2024 -0300
+
+    mudanças de ortografia no html
+
+[33mcommit b5ba9288b8994313e2009737494890faf366a79f[m
+Author: tomatokirayuu <alienastromato@gmail.com>
+Date:   Wed Dec 11 22:02:24 2024 -0300
+
+    adicionada aba contato
+
+[33mcommit f495ebcb1f3d10058d9891e9af60547d270aa78d[m
+Merge: 7680910 60608e6
+Author: tomatokirayuu <alienastromato@gmail.com>
+Date:   Wed Dec 11 22:00:21 2024 -0300
+
+    Merge pull request #1 from manomuca18/main
+    
+    alterações no projeto
+
+[33mcommit 60608e6a7bed37dee8d761e555cbcd7c18e1eac5[m
+Author: manomuca18 <adriansantos00779@gmail.com>
+Date:   Wed Dec 11 21:34:38 2024 -0300
+
+    atualização do readme.md
+
+[33mcommit 76809107a892e113b51679fcd13e472a9e523cd5[m[33m ([m[1;31morigin/criando-home[m[33m)[m
+Author: tomatokirayuu <alienastromato@gmail.com>
+Date:   Wed Dec 11 20:56:25 2024 -0300
+
+    criei blocos inicio e objetivo
+
+[33mcommit df5550c67c232a41445ebf294780103e1f8c6868[m
+Author: manomuca18 <adriansantos00779@gmail.com>
+Date:   Wed Dec 11 20:06:29 2024 -0300
+
+    adição global.css
+
+[33mcommit 23b193faec0cdb57e05c8640e45b4a48e57ecdb4[m
+Author: manomuca18 <adriansantos00779@gmail.com>
+Date:   Wed Dec 11 19:44:14 2024 -0300
+
+    inclusão h2
+
+[33mcommit 0aa2f7751667141bcab5adde4bdcd175324f4066[m
+Author: tomatokirayuu <alienastromato@gmail.com>
+Date:   Tue Dec 10 21:04:34 2024 -0300
+
+    Alteração do readme e htmt
+
+[33mcommit d44c55736b7f6b7fea8f2cdfc8b9da511d6b1195[m
+Author: tomatokirayuu <alienastromato@gmail.com>
+Date:   Tue Dec 10 20:41:29 2024 -0300
+
+    atualizações no html e readme
+
+[33mcommit e842839572cf95701f10d97146c50e53dc481188[m
+Author: tomatokirayuu <alienastromato@gmail.com>
+Date:   Tue Dec 10 20:12:46 2024 -0300
+
+    criando html
+
+[33mcommit 7d47e4ee41e3bbc2d45aa13e4d00c64a804be630[m
+Author: tomatokirayuu <alienastromato@gmail.com>
+Date:   Tue Dec 10 19:47:29 2024 -0300
+
+    commit do readme
