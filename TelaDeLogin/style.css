@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('./pdf.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
+
+
+
+.box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #DEAA79;
+    text-align: center;
+}
+
+.box .inputBox{
+    position: relative;
+}
+
+.box .inputBox input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background-color: transparent;
+}
+
+.box .inputBox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ffffff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:focus ~ label{
+    top: -18px;
+    left: 0;
+    color: #B1C29E;
+    font-size: 12px;
+}
+
+.box input[type="submit"] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color:#DEAA79;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
