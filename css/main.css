@@ -1,4 +1,7 @@
-main {
+@import url("global.css");
+@import url("rodape.css");
+
+body {
     background-color: #254e58;
     color: #fff;
     display: flex;
