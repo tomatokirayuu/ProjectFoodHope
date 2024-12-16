@@ -1,0 +1,34 @@
+#contato{
+    width: 100%;
+    background-color: #254e58;
+    color: #f5f5f5;
+    padding-top: 80px;
+    flex-direction:row;
+    justify-content: space-around;
+    display: flex;
+    padding-bottom: 50px;
+}
+#contato h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#contato form {
+    border-radius: 5px;
+    padding: 10px; 
+    border: 1px solid #ccc;
+}
+
+#contato input, select, textarea {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px; /* Espaçamento entre os campos */
+    width: 100%; /* Para ajustar a largura ao contêiner */
+}
+
+#contato button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 15px; /* Espaçamento acima do botão */
+}

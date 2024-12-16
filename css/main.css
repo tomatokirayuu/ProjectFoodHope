@@ -1,7 +1,11 @@
 @import url("global.css");
 @import url("rodape.css");
+@import url(navegação.css);
+@import url(inicio.css);
+@import url(contato.css);
+@import url(objetivos.css);
 
-body {
+body{
     background-color: #254e58;
     color: #fff;
     display: flex;

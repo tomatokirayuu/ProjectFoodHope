@@ -1,0 +1,45 @@
+#inicio {
+    background-image: url("/src/images/pesca02.jpg");
+    background-size: cover;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#quemSomos h3 {
+    color: #00bfff;
+}
+
+#quemSomos {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+    padding: 38px;
+    border-radius: 10px;
+    max-width: 700px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-self: flex-end;
+}        
+
+#quemSomos h3 {
+    padding-top: 45px;
+    color: #fff;
+}
+
+#imgODS {
+    width: 60%;
+}
+
+#imgODS img {
+    width: 75%;
+    height: 75%;
+}
+
+#quemSomos p {
+    font-size: 16px;
+    line-height: 1.6;
+}
