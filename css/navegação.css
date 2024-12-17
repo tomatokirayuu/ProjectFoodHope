@@ -4,8 +4,7 @@
     background-color: #112d32;
     color: #f5f5f5;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0; /* Fixar na parte superior */
@@ -47,11 +46,10 @@
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #88bdbc;
     color: #112d32;
     border: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
 
 #navegacao input.botaoLogin:hover {
@@ -60,8 +58,7 @@
 }
 
 #navegacao ul li a:hover {
-    background-color: #99e9f2;
-    color: #000;
+    color: #88bdbc;
     border-radius: 5px;
 }
 
