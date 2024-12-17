@@ -1,45 +1,45 @@
-#inicio {
-    background-image: url("/src/images/pesca02.jpg");
-    background-size: cover;
-    color: #fff;
-    padding: 50px;
-    text-align: center;
-    padding-top: 130px;
+.inicio {
+    align-items:  center;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 80px;
+}
+
+section.inicio{
+    padding: 80px 4%;
+}
+
+.flex{
     display: flex;
-    flex-direction: column;
 }
 
-
-
-#quemSomos h3 {
-    color: #00bfff;
+section.inicio.flex{
+    align-items: center;
+    justify-content: center;
 }
 
-#quemSomos {
-    background-color: rgba(0, 0, 0, 0.7);
-    margin: 20px;
-    padding: 38px;
-    border-radius: 10px;
-    max-width: 700px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    align-self: flex-end;
-}        
-
-#quemSomos h3 {
-    padding-top: 45px;
-    color: #fff;
+.inicio h1{
+    color: rgb(53, 87, 86);
+    font-size: 42px;
+    line-height: 40px;
 }
 
-#imgODS {
-    width: 60%;
+.inicio .txt-topo-site p{
+    color: rgb(0, 0, 0);
+    margin: 40px 0;
+    font-size: 40px;
 }
 
-#imgODS img {
-    width: 75%;
-    height: 75%;
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
 }
 
-#quemSomos p {
-    font-size: 16px;
-    line-height: 1.6;
+.inicio .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
 }
