@@ -1,5 +1,7 @@
+//ligação do login com o market
+
 function openLoginPage() {
-    window.open('index.html', '_self'); 
+    window.open('login.html', '_self'); 
 }
 
 document.addEventListener('DOMContentLoaded', function() {

@@ -1,3 +1,10 @@
+@import url("global.css");
+@import url("rodape.css");
+@import url(navegação.css);
+@import url(inicio.css);
+@import url(contato.css);
+@import url(objetivos.css);
+
 *{
     margin: 0;
     padding: 0;
