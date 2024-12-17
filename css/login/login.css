@@ -9,7 +9,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: url('./pdf.jpg');
+    background-image: url('pdf.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
