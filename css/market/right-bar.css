@@ -1,0 +1,156 @@
+#right-bar {
+    padding: 20px;
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+}
+
+#infoSearch a {
+    color: black;
+}
+
+#infoSearch a:hover {
+    text-decoration: underline;
+}
+
+.searchLocation {
+    position: relative;
+    z-index: 2; /* Garante que os spans fiquem sobre a borda do botão */
+}
+
+.searchLocation span {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    padding: 5px;
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+}
+
+.searchAreaButton {
+    width: 80%;
+    border-radius: 0px 5px 5px 5px;
+    border: solid #000 1px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.searchAreaButton button {
+    border-radius: 25px;
+    padding: 5px 10px;
+    background-color: #88bdbc;
+    font-size: small;
+    font-weight: 600;
+}
+
+.searchAreaButton button:hover {
+    background-color: #659191;
+}
+
+.searchResult {
+    margin-top: 20px;
+}
+
+.searchResult h1 {
+    margin-bottom: 10px;
+}
+
+.searchOptions {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchOptions > div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px 10px 0px;
+}
+
+.searchOptions > div > label {
+    padding-bottom: 5px;
+}
+
+.searchOptions select {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+a.linkPagProd {
+    text-decoration: none;
+    color: inherit;
+}
+
+.produto {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin: 5px 0;
+    border-radius: 15px;
+    border: 1px solid #456363;
+    background-color: #000;
+    transition: transform 0.3s ease;
+    overflow: hidden; 
+    cursor: pointer;
+    width: 80%;
+    height: 16%;
+}
+
+.produto:hover {
+    transform: scale(1.02);  
+}
+
+.produto > div {
+    padding: 15px;
+}
+
+.produto a {
+    color: #fff;
+}
+
+.imgProd {
+    width: 25%;
+    object-fit: cover;
+    height: auto;
+    transition: transform 0.5s ease;
+    flex-shrink: 0; 
+    margin-right: 15px;
+}
+
+.imgProd:hover {
+    max-width: max-content;
+    transform: scale(1.2);
+    overflow: hidden; 
+}
+
+.infoProd {
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.infoProd > h3, h4, p {
+    padding-bottom: 3px;
+}
+
+.infoProduto,
+.local {
+    font-size: 13px;
+}
+
+.precoSemDesc {
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+.infoVendedor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

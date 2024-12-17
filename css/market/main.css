@@ -1,0 +1,6 @@
+main {
+    background-color: #deaa79;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
