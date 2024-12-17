@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Hope</title>
+<link rel="stylesheet" href=".src/css/marketplace/marketplace.css">
+<link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+    <nav id="navegacao">
+        <ul>
+            <li><a href=""><i class="bi bi-handbag-fill"></i>Página Inicial</a></li>
+            <li><a href=""><i class="bi bi-grid-fill"></i>Meus Anúncios</a></li>
+            <li><a href=""><i class="bi bi-chat-text-fill"></i>Chat</a></li>
+            <li><a href=""><i class="bi bi-bell-fill"></i>Notificações</a></li>
+        </ul>
+        <input type="submit" value="Anunciar Grátis" onclick="openLoginPage()" class="botaoLogin">
+    </nav>
+    </header>
+    <main>
+        <section id="left-bar">
+            <div id="containerMovel">
+                <img src="" alt="Imagem de login">
+                <div class="nomelogin">
+                    <p>Food Hope</p>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Buscar...">
+                    <button
+                    type="submit" id="search-button">&#128269;</button>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#"><i class="bi-bi-1-circle"></i>Padaria</a></li>
+                        <li><a href="#"><i class="bi bi-2-circle"></i>Confeitaria</a></li>
+                        <li><a href="#"><i class="bi bi-3-circle"></i>Mercado</a></li>
+                        <li><a href="#"><i class="bi bi-4-star"></i>Mais Vendidos</a></li>
+                        <li><a href="#"><i class="bi bi-5-cart4"></i>Carrinho</a></li>
+                    </ul>
+                </nav>
+                </div>
+        </section>
+        <section id="right-bar">
+        <div id="infoSearch">
+        <div class="searchLocation">
+        <p><span><a href="#">SC</a></span>> <span><a href="#">DDD 48 - Florianópolis e Região</a></span>> <span><a href="#">Grande Florianópolis</a></span>> <span>Florianópolis (capital)</span></p>
+        </div>
+        <div class="searchAreaButton">
+            <button><i class="bi bi-geo-alt"> </i>Escolher bairros / cidades</button>
+        </div>
+        <div class="searchResult">
+            <h1>Anúncios - Florianópolis, Santa Catarina</h1>
+            <p>1 - 4 de 4 resultados</p>
+            <div class="searchOptions">
+            <div>
+                <label for="type">Tipo de Anúncio:</label>
+                <select name="Tipo de Anúncio:" id="type">
+                    <option value="Todos">Todos os Anúncios</option>
+                    <option value="Empresa">Empresas</option>
+                    <option value="Particulares">Particulares</option>
+                </select>
+            </div>
+            <div>
+                <label for="order">Ordenar Por:</label>
+                <select name="Ordenar Por:" id="order">
+                <option value="Recentes">Mais Recentes</option>
+                <option value="Menor Preco">Menor Preço</option>
+                <option value="Maior Preco">Maior Preço</option>
+                </select>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="produto">
+        <img src="" alt="Imagem do Pão Francês" class="imgProd">
+        <div class="infoProd">
+            <h4 class="nomeProduto">Pão Francês</h4>
+            <p class="infoProduto">Informações do Produto</p>
+            <p class="precoSemDesc">R$ 1,00/Un.</p>
+            <h3 class="precoProduto">R$ 0,30/Un.</h3>
+        </div>
+        <div class="infoVendedor">
+            <h4 class="nomeVendedor">Padaria Angeloni</h4>
+            <p class="tipoVendedor">Empresa</p>
+            <p class="local">Florianópolis, Centro
+            <i class="bi bi-geo-alt"></i></p>
+            <p><a href="#" target="_blank" class="botaoChat"><i class="bi bi-whatsapp"></i></a></p>
+        </div>
+        </div>
+
+        <div class="produto">
+            <img src="" alt="Imagem do Leite Integral" class="imgProd">
+            <div class="infoProd">
+                <h4 class="nomeProduto">Leite Integral</h4>
+                <p class="infoProd">Informações do Produto</p>
+                <p class="precoSemDesc">R$ 5,35/Un.</p>
+                <h3 class="precoProduto">R$ 2,15/Un.</h3>
+            </div>
+            <div class="infoVendedor">
+                <h4 class="nomeVendedor">Atacadão</h4>
+                <p class="tipoVendedor">Empresa</p>
+                <p class="local">Florianópolis, Capoeiras<i class="bi bi-geo-alt"></i></p>
+                <p><a target="_blank" href="#" class="botaoChat"><i class="bi bi-chat"></i></a></p>
+                <p><a href="#" target="_blank" class="botaoWhats"><i class="bi bi-whatsapp"></i></a></p>
+            </div>
+        </div>
+        <div class="produto">
+            <img src="" alt="Imagem do Bolo de Cenoura" class="imgProd">
+            <div class="infoProd">
+                <h4 class="nomeProduto">Bolo de Cenoura</h4>
+                <p class="infoProduto">Informações do Produto</p>
+                <p class="precoSemDesc">R$ 15,00/Un.</p>
+                <h3 class="precoProduto">R$ 7,00/Un.</h3>
+            </div>
+            <div class="infoVendedor">
+                <h4 class="nomeVendedor">Carla Bolos</h4>
+                <p class="tipoVendedor">Microempresa</p>
+                <p class="local">São José, Campinas <i class="bi bi-geo-alt"></i></p>
+                <p><a target="_blank" href="#" class="botaoChat"><i class="bi bi-chat"></i></a></p>
+                <p><a href="" target="_blank" class="botaoWhats"><i class="bi bi-whatsapp"></i></a></p>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer id="rodape">
+        <p>Projeto - Food Hope - V.01 - Dezembro'24</p><br>
+        <div class="redeSocial">
+            <ul>
+                <li><a target="_blank" href=""><i class="bi bi-instagram"></i></a></li>
+                <li><a target="_blank" href=""><i class="bi bi-facebook"></i></a></li>
+                <li><a target="_blank" href=""><i class="bi bi-youtube"></i></a></li>
+                <li><a target="_blank" href=""><i class="bi bi-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
