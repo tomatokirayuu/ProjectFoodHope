@@ -1,34 +1,38 @@
-#contato{
-    width: 100%;
-    background-color: #254e58;
-    color: #f5f5f5;
-    padding-top: 80px;
-    flex-direction:row;
-    justify-content: space-around;
+.tituloform{
+    color: #355756;
+    font-size: 38px;
+    text-align: center;
+}
+
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
     display: flex;
-    padding-bottom: 50px;
-}
-#contato h1{
-    font-size: 25px;
-    margin-bottom: 20px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
-#contato form {
-    border-radius: 5px;
-    padding: 10px; 
-    border: 1px solid #ccc;
+form input{
+    width: 100%;
+    background-color: #355756;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 18px;
+
 }
 
-#contato input, select, textarea {
-    border-radius: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-bottom: 10px; /* Espaçamento entre os campos */
-    width: 100%; /* Para ajustar a largura ao contêiner */
+form input::placeholder{
+    
 }
 
-#contato button {
-    border-radius: 10px;
-    padding: 10px 20px;
-    margin-top: 15px; /* Espaçamento acima do botão */
-}
+
+
