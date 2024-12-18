@@ -9,16 +9,16 @@ section.formulario{
 }
 
 form{
-    color: #fff;
     max-width: 500px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 10px;
+    margin-top: 40px;
 }
 
-form input{
+form input, form textarea{
     width: 100%;
     background-color: #355756;
     border: 0;
@@ -30,9 +30,35 @@ form input{
 
 }
 
-form input::placeholder{
-    
+form textarea::placeholder{
+    color: #ffffff4b;
 }
 
+form textarea{
+    resize: none;
+    max-height: 400px;
+    height: 220px;
+}
+
+
+form input::placeholder{
+    color: #ffffff4b;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+     width: 120px;
+     background-color: #355756;
+     color: #fff;
+     cursor: pointer;
+}
+
+form .btn-enviar{
+    transform: scale(1.05);
+}
 
 

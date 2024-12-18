@@ -6,5 +6,5 @@
 @import url(objetivos.css);
 
 body{
-    background-color: #DEAA79;
+    background-image: linear-gradient(to bottom, #DEAA79,rgb(184, 189, 136));
 }
