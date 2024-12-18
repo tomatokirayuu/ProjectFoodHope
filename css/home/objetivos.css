@@ -1,56 +1,47 @@
-#objetivos{
-    width: 100%;
-    background-color: #254e58;
-    font-family:'Arial', sans-serif;
-    padding: 50px 370px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center;     /* Centraliza horizontalmente */
-    }
+section.objetivos{
+    padding: 40px 4%;
+    display: flexbox;
+    box-sizing: border-box;
 
-#objetivos h1 {
-    font-size: 45px;
-    padding-bottom: 50px;
+}
+
+section.objetivos .flexbox{
+    gap: 60px;
+}
+
+h2.tituloobj{
+    color: #355756;
+    font-size: 38px;
+    text-align: center;
+}
+
+.objetivos .especialidades-box{
     color: #fff;
-    padding-top: 100px;
+    padding: 40px;
+    border: 2px solid #DEAA79;
+    margin-top: 45px;
+    border-radius: 22px;
+    background-color: #355756;
+    transition: 1.2s;
+    
 }
 
-#objetivos h2 {
-    font-size: 37px;
+.objetivos .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff42;
 }
 
-.objetivosBlocos div {
-    align-self: center;
+.objetivos .especialidades-box i{
+    font-size: 70px;
+    color: #000;
 }
 
-.objetivosBlocos > div{
-    width: 100%;
-    height: 270px;
-    background-color: #112d32;
-    color: aliceblue;
-    display: flex;
-    flex-direction: row;  /* Altera para coluna para alinhar h3 e p */
-    align-items: center; 
-    gap: 2%;
-    padding: 30px;
-    border-top: 5px solid #88bdbc;
-    border-radius: 30px;
-    background: linear-gradient(130deg, var(#112d32) 0%, #254e58 50%, #88bdbc 100%);
-    transition: all .5s;
+.objetivos .especialidades-box h3{
+    font-size:30px;
+    margin: 15px 0;
 }
 
-.objetivosBlocos > div:hover{
-    transform: scale(1.1);
-}
 
-/* Estilo do h3 e P */
-.objetivosBlocos > div h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
 
-.objetivosBlocos > div p {
-    font-size: 14px;
-    line-height: 1.5;
-}
+
+
